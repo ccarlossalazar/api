@@ -1,11 +1,12 @@
+/*
 const express = require('express');
 const router = express.Router();
 const {
   sendOtpEmail,
   verifyOtpEmail,
-} = require('../controllers/emailController');
+} = require('../controllers/emailController.cjs');
 
 router.post('/send-otp', sendOtpEmail);
 router.post('/verify-otp', verifyOtpEmail);
 
-module.exports = router;
+module.exports = router;*/

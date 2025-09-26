@@ -1,4 +1,5 @@
-const supabase = require('../config/supabase');
+/*
+const supabase = require('../config/supabase.cjs');
 const bcrypt = require('bcrypt');
 const { v4: uuidv4 } = require('uuid');
 const jwt = require('jsonwebtoken');
@@ -120,3 +121,4 @@ exports.checkEmail = async (req, res) => {
   if (user) return res.json({ exists: true });
   res.json({ exists: false });
 };
+*/

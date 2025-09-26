@@ -1,5 +1,6 @@
-const transporter = require('../config/email');
-const loadOtpTemplate = require('../emailTemplates/otp');
+/*
+const transporter = require('../config/email.cjs');
+const loadOtpTemplate = require('../emailTemplates/otp.cjs');
 const jwt = require('jsonwebtoken');
 
 // In-memory store for OTPs (use  Redis or DB in production)
@@ -51,3 +52,4 @@ exports.verifyOtpEmail = (req, res) => {
   });
   res.json({ message: 'OTP verified', otpToken });
 };
+*/
