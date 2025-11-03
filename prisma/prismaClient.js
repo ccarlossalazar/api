@@ -1,5 +1,4 @@
 // Initializing connection to Posrtgres using Prisma ORM for quering the database
-
 import { PrismaClient } from '@prisma/client'
 
     const globalPrisma = globalThis
